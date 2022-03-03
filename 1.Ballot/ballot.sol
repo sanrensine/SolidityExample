@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.9.0;
 
-/*
- *  投票系统，由合约创建者（主席）发起提案，主席拥有赋予指定选民投票的权利
- *  选民可以指定另一个选民作为自己的代表
- *  部署地址 https://rinkeby.etherscan.io/tx/0x08eb435a2c57bc552168aa109836b925589434b3ca12799f4852be9bae2eb64e
+/*  
+投票系统，由合约创建者（主席）发起提案，主席拥有赋予指定选民投票的权利
+选民可以指定另一个选民作为自己的代表
+部署地址 https://rinkeby.etherscan.io/tx/0x08eb435a2c57bc552168aa109836b925589434b3ca12799f4852be9bae2eb64e
  */
 contract Ballot {
 
